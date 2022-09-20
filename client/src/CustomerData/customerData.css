@@ -1,0 +1,25 @@
+.customer-data-name {
+    font-size: 4vw;
+    color: #1f8ccf;
+}
+
+@media (min-width:576px) {
+    .customer-data-name {
+        font-size: 3vw;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .customer-data-name {
+        font-size: 2vw;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .customer-data-name {
+        font-size: 1.5vw;
+        
+    }    
+}

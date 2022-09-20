@@ -1,0 +1,8 @@
+.sel {
+    width: 50%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #1f8ccf;
+    outline: 1px solid #1f8ccf
+}

@@ -1,0 +1,82 @@
+.customers-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+}
+.blue-button {
+    background-color: #1f8ccf;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.blue-button:hover {
+    background-color: #0a7ac0;
+}
+.width-10 {
+    width: 10%;
+}
+.buttons-div {
+    display: flex;
+
+}
+.blue-back {
+    color: white;
+    background-color: #1f8ccf;
+}
+.processing-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-input {
+    border: 2px solid #1f8ccf;
+    border-radius: 5px;
+    outline-color: #1674ae;
+    padding: 3px 10px;
+    width: 40%; /*20*/
+}
+.customers-header {
+    font-size: 2vw;
+    margin: 0;
+    color: #0a7ac0;
+}
+.add-input {
+    width: 50%;
+    border: 1px solid #1f8ccf;
+    outline-color: #1674ae;
+    border-radius: 5px;
+}
+.bg-image {
+    background-image: url('../Images/car_wash_logo_cropped_dark2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blue {
+    color: #1f8ccf;
+}
+.button-font {
+    font-size: 3vw;
+}
+@media (min-width:576px) {
+    .button-font {
+        font-size: 2.3vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-font {
+        font-size: 1.7vw;
+    }
+    .search-input {
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .button-font {
+        font-size: 1.15vw;
+    }
+}

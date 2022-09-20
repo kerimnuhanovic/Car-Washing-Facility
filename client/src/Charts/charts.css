@@ -1,0 +1,45 @@
+.chart-div-bar {
+    width: 300px;
+    height: 300px;
+    
+}
+.chart-div-pie {
+    width: 90%;
+}
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.stats-h {
+    color: #1f8ccf;
+}
+@media (min-width: 576px) {
+    .chart-div-bar {
+        width: 350px;
+        height: 350px;
+        
+    }
+    .chart-div-pie {
+        width: 50%;
+    }
+} 
+
+@media (min-width: 768px) {
+    .chart-div-bar {
+        width: 400px;
+        height: 400px;
+        
+    }
+    .chart-div-pie {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .chart-div-pie {
+        width: 400px;
+    }
+}

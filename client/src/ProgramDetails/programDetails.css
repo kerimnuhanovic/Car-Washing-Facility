@@ -1,0 +1,33 @@
+.program-details-h {
+    font-weight: 400;
+    color: #2a9ce2;
+}
+.program-steps {
+    font-size: 4.5vw;
+}
+
+@media (min-width:576px) {
+    .program-steps { 
+        font-size: 3.5vw;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .program-steps {
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .program-steps {
+        font-size: 1.8vw;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .program-steps {
+        font-size: 1.3vw;
+    }
+}
